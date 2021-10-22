@@ -1,5 +1,5 @@
 function Navbar(a){
-    var pages = ["home", "aboutme", "projects"];
+    var pages = ["home", "shop", "contactme"];
     var pageslength = pages.length;
     for (var i = 0; i < pages.length; i++) {
         console.log(i);
