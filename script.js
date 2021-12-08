@@ -1,4 +1,4 @@
-function Navbar(a){
+function Navbar(a) {
     var pages = ["home", "shop", "contactme"];
     var pageslength = pages.length;
     for (var i = 0; i < pages.length; i++) {
@@ -18,4 +18,9 @@ function Navbar(a){
         }
     }
     document.getElementById(pagedivs[a]).style.display = "block"
+}
+
+function loaded() {
+    document.getElementById("page").style.display = "block";
+    document.getElementById("loading").style.display = "none";
 }
