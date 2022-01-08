@@ -1,0 +1,95 @@
+/*Button color*/
+.ec-size .ec-store .form-control--primary .form-control__button {
+    background-color: rgb(129, 92, 43) !important;
+}
+
+/*Button color on hover*/
+.ec-size .ec-store .form-control--primary .form-control__button:hover {
+    background: rgba(192,137,255,1) !important;
+}
+
+/*Text color*/
+.ec-size .ec-store .form-control--primary .form-control__button {
+    color: rgb(255, 255, 255) !important;
+}
+
+/*Text color on hover*/
+.ec-size .ec-store .form-control--primary .form-control__button:hover {
+    color: rgb(255, 255, 255) !important;
+}
+
+.ecwid div, .ecwid span, .ecwid a, .ecwid p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+div.ecwid-productBrowser, .cover ~ .body .tiles, [data-block], .ec-size .ec-store .grid-product__wrap-inner, .ec-size .ec-store{ 
+    background: rgb(255,245,203,0) !important;
+}
+
+.ec-size .ec-store .grid-product__buy-now .form-control__button { 
+    background: rgb(129, 92, 43) !important;
+    color: rgb(255, 255, 255) !important; 
+}
+
+.ec-size .ec-store .grid-product__buy-now .form-control__button:hover { 
+    background: rgba(192,137,255,1) !important;
+    color: rgb(255, 255, 255) !important; 
+}
+
+.ec-size .ec-store .details-product-purchase__add-buttons .form-control__button { 
+    background: rgb(255, 255, 255) !important;
+    color: rgb(129, 92, 43) !important; 
+}
+
+.ec-size .ec-store .details-product-purchase__add-buttons .form-control__button:hover { 
+    background: rgba(192,137,255,1) !important;
+    color: rgb(255, 255, 255) !important; 
+}
+
+.grid-product__wrap {
+    display: flex;
+}
+
+.grid-product__price {
+    flex: 1 0 auto;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ecwid div, .ecwid span, .ecwid a, .ecwid p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+/*Product titles on catalog page*/
+/*Change font color*/
+.ec-size .ec-store .grid-product__title-inner {
+    color: rgb(0, 0, 0);
+    font-size: 30px !important; 
+}
+    
+/*Product price on catalog page*/
+/*Change font color*/
+.ec-size .ec-store .grid-product__price-amount {
+    color: rgb(63 63 63);
+    font-size: 20px !important; 
+}
+    
+/*Change font size*/
+.ec-size .ec-store .grid-product__price { 
+    font-size: 20px !important; 
+}
+
+/*Product titles in the product page*/
+html#ecwid_html body#ecwid_body .ec-size .ec-store .product-details .product-details__product-title {
+    color: #000000;
+    font-size: 40px;
+}
+
+/*Product price in the product page*/
+html#ecwid_html body#ecwid_body .ec-size .ec-store .ec-price-item {
+    color: rgb(129, 92, 43);
+    font-size: 30px;
+}
